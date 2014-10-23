@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffe5e4e2" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/browseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@*android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/progressLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/progress" />
+        <include android:id="@id/loading" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/loading" />
+        <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+		<include android:id="@id/helpLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/help_window"/>
+        <View android:background="@*android:drawable/divider_horizontal_bright" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+        <Button android:textAppearance="@*android:style/TextAppearance.Small" android:id="@id/btnChoose" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select_dir" style="@style/BrowseButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

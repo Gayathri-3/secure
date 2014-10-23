@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/user_interface" />
+    <com.bv.wifisync.CheckPreference android:title="@string/show_device_root_title" android:key="@string/show_device_root_key" android:summary="@string/show_device_root_summary" android:defaultValue="false" />
+	<com.bv.wifisync.CheckPreference android:title="@string/assistant_title" android:key="@string/assistant_key" android:summary="@string/assistant_summary" android:defaultValue="true" />
+    <com.bv.wifisync.CheckPreference android:title="@string/show_error_notification_title" android:key="@string/show_error_notification_key" android:summary="@string/show_error_notification_summary" android:defaultValue="true" />
+    <com.bv.wifisync.CheckPreference android:title="@string/vibrate_title" android:key="@string/vibrate_key" android:summary="@string/vibrate_summary" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/system" />
+    <com.bv.wifisync.CheckPreference android:title="@string/force_wifi_title" android:key="@string/force_wifi_key" android:summary="@string/force_wifi_summary" android:defaultValue="true" />
+	<com.bv.wifisync.IntTextPreference android:maxLength="4" android:numeric="integer" android:title="@string/free_space_title" android:key="@string/free_space_key" android:summary="@string/free_space_summary" android:defaultValue="10" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menuViewDeviceFiles" android:title="@string/view_copied_to_device" />
+    <item android:id="@id/menuViewPCFiles" android:title="@string/view_copied_to_pc" />
+    <item android:id="@id/menuViewDeleted" android:title="@string/view_deleted" />
+    <item android:id="@id/menuCopy" android:title="@*android:string/copy" />
+</menu>

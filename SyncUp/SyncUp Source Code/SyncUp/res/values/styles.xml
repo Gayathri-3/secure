@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LightThemeSelector" parent="@*android:style/Theme.Light" />
+    <style name="MyProgressStyle" parent="@*android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress</item>
+    </style>
+    <style name="DialogBoxStyle" parent="@*android:style/Theme.Black" />
+    <style name="BrowseButtonStyle" />
+    <style name="NoBorderButton">
+        <item name="android:background">@*android:drawable/list_selector_background</item>
+    </style>
+    <style name="browseStyle" />
+</resources>
